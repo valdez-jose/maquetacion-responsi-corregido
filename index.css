@@ -1,0 +1,550 @@
+*{ margin: 0;}
+
+
+/*INTRO */
+.intro{
+    background-color: #FAFAFA;
+    width: 375px;
+    height: 616px;
+}
+
+@media (min-width:376px){
+    .intro{
+        width :auto;
+        height: 616px;
+    }}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+@media (min-width:376px){
+        .header{
+        height: 145px;
+    }}
+
+.logo{
+    width: 54px;
+    height: 50px;
+    padding: 18px;
+}
+
+@media (min-width:376px){
+  .logo{
+        width: 95px;
+        height: 109px;
+    }
+  
+}
+
+.categorias{
+    width: 36px;
+    height: 32px;
+    padding: 20px;
+}
+.categoriasgrande{
+    display: none;
+}
+@media(min-width:376px){
+    .categorias{
+        display: none;
+    }
+ .categoriasgrande{
+     width: 428px;
+     height: 28px;
+     font-family: Roboto;
+     font-weight: 700;
+     font-size: 24px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 62px;
+     margin-right: 103px;
+ 
+    }
+}
+
+
+@media(min-width:376px){
+    .descripcionintro{
+        display: flex;
+         justify-content: space-between;
+
+    } 
+
+}
+.Bienvenidos{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; 
+    font-size: 48px; 
+    line-height: 48px; 
+    letter-spacing: -1px; 
+    text-align: center; 
+    padding: 60px;
+}
+
+@media (min-width:376px){
+    .Bienvenidos{
+        width: 313px;
+        height: 96px;
+        padding: 0;
+        margin-top: 200px;
+        margin-left: 80px;
+        display: inline-block;
+    }
+
+}
+
+.imagen{
+    width: 375px;
+    height: 666px;
+}
+
+.mifoto{
+    margin-top: 14px;
+    width: 318px;
+    height: 300px;
+    padding: 0 28.5px;
+
+}
+@media (min-width:376px){
+    .mifoto{
+       width: 435px;
+       height: 395px;
+       padding: 0;
+       margin-top:76px ;
+       margin-right: 84px;
+    }
+
+}
+
+
+/*SERVICIOS DE IVAN VELZI*/
+
+.IvanVelzi{
+    background-color: black;
+    height: 538px;
+    width: 375px;
+}
+
+@media (min-width:376px){
+    .IvanVelzi{
+        width :auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row-reverse
+    } }
+
+
+.soyIvan{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FAFAFA;
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: -2px;
+    width: 271px;
+    height: 44px;
+    padding: 50px;
+}
+.descripcionIvan{
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0 30px;
+    
+}
+.logoTilde{
+    height: 80px;
+    width: 80px;
+    padding-left: 147px;
+    padding-top: 50px;
+}
+
+@media(min-width:376px){
+    .logoTilde{
+        width: 211px;
+        height: 211px;
+        
+    }
+    .ivanydescripcion{
+        width: 532px;
+        height: 237px;
+        margin-left: 90px;
+    }
+    .soyIvan{
+        padding: 0;
+        margin-top: 30px;
+        text-align: left;
+    }
+    .descripcionIvan{
+        text-align: left;
+        padding: 0;
+    }
+}
+
+/*MIS SERVICIOS O TRABAJOS QUE HAGO*/
+
+.servicios{
+    background-color: #FAFAFA;
+    width: 375px;
+    height: 1375px;
+}
+
+@media (min-width:376px){
+    .servicios{
+        width :auto;
+        height: 604px;
+    }
+
+}
+
+
+.serviciosIvan{
+    font-size: 32px;
+    font: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+}
+
+@media(min-width:376px){
+    .contenedorejemplos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .serviciosIvan{
+        padding: 0;
+        margin-top: 59px;
+        
+    }
+    .ejemplos1{
+        margin: 0;
+        padding: 0;
+    }
+}
+.ejemplos1{
+    width: 312px;
+    height: 271px;
+    padding: 0 50px ;
+    margin: 30px 0;
+    
+}
+.logoCompu{
+    height: 138px;
+    width: 138px;
+    margin-left: 70px ;
+}
+
+.Software{
+     font-family: Roboto;
+     font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 30px 0px;
+    padding-right: 30px;
+}
+
+.softwareInfo{
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 262px;
+height: 117px;
+}
+
+.ejemplos2{
+    width: 312px;
+    height: 271px;
+    padding:50px;
+    margin:50px 0px;
+}
+
+.logoMecanica{
+ height: 138px;
+    width: 138px;
+    margin-left: 70px ;
+}
+
+.Mecanica{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 30px 0px;
+    padding-right: 30px;
+}
+
+.MecanicaInfo{
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 262px;
+height: 117px;
+}
+
+
+
+.ejemplos3{
+    width: 312px;
+    height: 271px;
+    padding:50px;
+}
+
+.logoCamarero{
+    height: 138px;
+    width: 138px;
+    margin-left: 70px ;
+    
+}
+
+.Camarero{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 30px 0px;
+    padding-right: 30px;
+}
+
+.camareroInfo{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 262px;
+height: 117px;
+}
+
+
+
+/* ENCUESTA O FORMULARIO? */
+.form{
+    background-color: #141414;
+    width: 375px;
+    height: 660px;
+
+}
+
+@media (min-width:376px){
+    .form{
+        width :auto;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+.Escribime{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FAFAFA;
+    line-height: 100%;
+    letter-spacing: -2px;
+    width: 271px;
+    height: 55.81px;
+    padding: 55px;
+    text-align: center;
+}
+
+.nombre{
+color: #FAFAFA;
+margin: 0 20px ; 
+width: 54px;
+height: 15px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.inputnombre{
+    width: 335px;
+    height: 45px;
+    margin:10px 20px;
+}
+
+.email{
+color: #FAFAFA;
+margin:10px 20px ; 
+width: 38px;
+height: 15px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.input-email{
+    width: 335px;
+    height: 45px;
+    margin:10px 20px;
+}
+
+.mensaje{
+color: #FAFAFA;
+margin:10px 20px ; 
+width: 50px;
+height: 15px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.input-mensaje{
+    width: 335px;
+    height: 113px;
+    margin:10px 20px;
+
+}
+
+.boton-enviar{
+    width: 335px;
+    height: 45px;
+    margin:30px 20px;
+    background-color: #FFD953;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:376px){
+    .contenedorform{
+        width: 370px;
+        height: 640px;
+        margin-top: 116px;
+    }
+    .Escribime{
+        padding: 0;
+    }
+    .contenedorescribeme{
+        margin-top: 116px;
+    }
+}
+
+/* FOOTER O FINAL O REDES SOCIALES*/
+
+.footer{
+    width: 375px;
+    height: 493px;
+background-color: #B9B9B9;}
+
+@media (min-width:376px){
+    .footer{
+        width :auto;
+        height: 346px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        }
+}
+
+.iconoFinal{
+    width: 77px;
+    height: 71px;
+    margin: 53px 16px 18px;
+}
+
+.since{
+    width: 83px;
+    height: 15px;
+    margin: 0 20px 89px;
+}
+
+@media(min-width:376px){
+    .iconoFinal{
+        margin: 0;
+    } 
+    .since{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .footerlogosince{
+        margin-left: 112px;
+        margin-top: 98px;
+
+    }
+}
+.instagram1{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 27px;
+}
+
+.Instagram{
+ width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin:33px 20px;
+
+}
+
+.Linkedin1{
+    display: flex;
+    align-items: center;
+}
+.Linkedin{
+ width: 28px;
+    height: 28px ;
+    
+    display: flex;
+    align-items:flex-end;
+    margin-bottom: 20px;
+    margin:33px 20px;
+    
+}
+
+.GitHub1{
+    display: flex;
+    align-items:center;
+}
+.GitHub{
+ width: 29px;
+    height: 29px;
+    display: block;
+    margin-bottom:20px ;
+    margin: 0px 20px;
+}
+
+@media(min-width:376px){
+    .redessociales{
+        width: 100px;
+        margin-right: 215px;
+    }
+
+}
