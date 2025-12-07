@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
     padding: 40px 20px;
     gap: 40px; /* separa logo y texto */
     flex-wrap: wrap; /* permite caer en móvil */
