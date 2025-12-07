@@ -27,15 +27,16 @@
     width: 50%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;  /* 👈 ESTE ES EL SECRETO */
     text-align: center;
     padding-left: 15rem;
     height: 500px;
 }
 
 .ivan{
-    width: 70%;
+     width: 70%;
     max-width: 400px;
-    border-radius: 10px; /* opcional, queda lindo */
+    border-radius: 10px;
 }
 
 
