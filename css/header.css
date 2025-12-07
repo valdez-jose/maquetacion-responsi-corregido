@@ -1,0 +1,25 @@
+
+*{margin:0;
+box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    background-color: rgba(8, 1, 1, 0.11);
+    color: white;
+}
+
+.header{
+    width :auto;
+    height: 616px;
+    background-color: darkgray;
+}
+.contenedor-logo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin-left: 1rem;
+}
+.logo1{
+width: 90px;
+}

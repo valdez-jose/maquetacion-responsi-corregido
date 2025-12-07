@@ -1,76 +1,128 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivan Velzi</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/bienvenida.css">
+    <link rel="stylesheet" href="css/presentacion.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Desafio-apx</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=NombreDeLaFuente&display=swap" rel="stylesheet">
 <body>
-    <div class="intro"> 
-        <header class="header"> 
-            <img src="images/logo-ivanvelzi.png" alt="logo-ivanvelzi" class="logo">
-            <img src="images/options-lines.png" alt="Categoriaenlinea" class="categorias">
-            <div class="categoriasgrande">
-                <p class="quiensoy">Quien Soy</p>
-                <P class="servicioscategoria">Servicios</P>
-                <p class="escribime">Escribime</p>
+    <header class="header">
+
+    <div class="top-header">
+
+  <div class="perfil">
+    <img class="logo1" src="images/logo-ivanvelzi.png" alt="Foto de perfil de Jose">
+  </div>
+  
+  <button class="hamburguesa" id="btnHamburguesa">☰</button>
+
+  <nav id="menuNav">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+</div>
+        
+        <div class="contenedor-bienvenida">
+            <div class="titulo">
+                    <h2>Bienvenidos a mi sitio</h2>
             </div>
-        </header>
-        <div class="descripcionintro">
-            <p class="Bienvenidos"> Bienvenidos a mi Sitio 
-            </p>
-            <img src="images/Mi Foto Ivan.png" alt="Foto" class="mifoto">
+
+            <div class="foto-ivan">
+                <img class="ivan" src="images/Mi Foto Ivan.png" alt="foto de ivan">
+            </div>
         </div>
+    </header>
+
+    <main>
+
+      <section class="contenedor__presentacion">
+
+    <div class="logo-aprobacion">
+        <img class="logo3" src="images/aprobacion.png" alt="logo">
     </div>
 
-    <div class="IvanVelzi"> 
-        <div class="ivanydescripcion"> 
-            <p class="soyIvan"> Soy Ivan</p>
-            <p class="descripcionIvan"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus praesentium ex aut minima, consequuntur, inventore dicta molestiae aspernatur ipsa at tempore porro accusantium magnam incidunt et ullam officia odit amet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic voluptatibus enim labore temporibus nihil ex repellendus. Deleniti, incidunt eveniet iste eum et dicta, distinctio maxime numquam, aut explicabo ipsa!</p>
-        </div>
-        <img src="images/check.png" alt="check" class="logoTilde">
+    <div class="presentacion-contenido">
+        <h4 class="titulo-presentacion">Soy Ivan</h4>
+        <p class="parrafo-presentacion">
+          Soy desarrollador Full Stack enfocado en crear aplicaciones 
+          web completas,
+           desde interfaces intuitivas hasta lógica backend robusta. 
+           Trabajo principalmente con JavaScript, React y Node.js, 
+           integrando APIs, bases de datos y diseño adaptable para brindar 
+           soluciones útiles y eficientes.Me motiva construir proyectos que 
+           combinen experiencia de usuario, rendimiento y valor real, aplicando buenas
+            prácticas, lógica clara y aprendizaje constante.
+        </p>
     </div>
-    <div class="servicios">
-        <h1 class="serviciosIvan">Mis Servicios</h1>
-        <div class="contenedorejemplos"> 
 
-            <div class="ejemplos1">
-                <img src="images/desktop.png" alt="" class="logoCompu">
-                <h1 class="Software">Software Developer</h1>
-                <h2 class="softwareInfo"> Realizo Paginas web Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga similique quaerat temporibus ipsum deserunt non enim cum sapiente iusto aliquam eaque culpa debitis amet odio, dicta blanditiis quae quia eos.</h2>
-            </div>
-            <div class="ejemplos2">
-                <img src="images/mecanico.png" alt="" class="logoMecanica">
-                <h1 class="Mecanica"> Mecanica Automotriz Electronica</h1>
-                <h2 class="MecanicaInfo"> Realizo diagnóstico y reparación de los sistemas electrónicos de los vehículos, como la inyección, los frenos, la dirección y los sistemas de seguridad </h2>
-                
-            </div>
-            <div class="ejemplos3">
-                <img src="images/camarer.png" alt="" class="logoCamarero">
-                <h1 class="Camarero"> Camarero</h1>
-                <h2 class="camareroInfo"> Me enfoco en la atencion al publico, satisfaciendo las necesidades del comensal, recomendando y asesorando Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, distinctio, repellat similique veniam laudantium voluptates ratione cumque asperiores dignissimos dicta, sit modi? Magni beatae aliquid quo quod officiis expedita sit.</h2>
-            </div>
-        </div>
-    </div>
-    <div class="form">
-        <div class="contenedorescribeme">
+</section>
 
-            <h1 class="Escribime">Escribime</h1>
+
+        <section class="contenedor__servicios">
+    <h3 class="titulo-servicios">Mis Servicios</h3>
+
+    <div class="contenedor-cards">
+        <div class="card">
+            <img class="img-card" src="images/desktop.png" alt="">
+            <h4>Software Developer</h4>
+            <p>Como desarrollador de software, creo soluciones eficientes que conectan diseño, 
+               lógica y experiencia de usuario. Mi objetivo es construir productos que realmente
+                aporten valor a las personas.</p>
         </div>
-        <div class="contenedorform"> 
-            <h2 class="nombre">Nombre</h2>
-            <input class="inputnombre" type="name">
-            <h3 class="email">Email</h3>
-            <input class="input-email" type="email">
-            <h4 class="mensaje">Mensaje</h4>
-            <input class="input-mensaje" type="text"> 
-            <button class="boton-enviar" type="submit">Enviar</button>
+
+        <div class="card">
+            <img class="img-card" src="images/desktop.png" alt="">
+            <h4>Backend con Javascript</h4>
+            <p>Me enfoco en construir experiencias dinámicas para la web con JavaScript, 
+                desde interfaces interactivas con React hasta el manejo de lógica compleja
+                 del lado del servidor con Node.js.</p>
+        </div>
+
+        <div class="card">
+            <img class="img-card" src="images/desktop.png" alt="">
+            <h4>Backend con Python</h4>
+            <p>Me especializo en desarrollar APIs y servicios backend usando Python. 
+            Trabajo con frameworks como Django y Flask para crear aplicaciones seguras,
+             escalables y fáciles de mantener.</p>
         </div>
     </div>
-    <div class="footer">
+</section>
+
+    <section class="form">
+    <h1 class="titulo-form">Escribime</h1>
+
+    <form class="contenedor-form">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" placeholder="Tu nombre">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="tucorreo@gmail.com">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" placeholder="Escribí tu mensaje"></textarea>
+
+        <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+</section>
+
+
+    
+    <footer class="footer">
         <div class="footerlogosince"> 
 
             <img class="iconoFinal" src="images/logo-ivanvelzi.png" alt="">
@@ -88,6 +140,7 @@
                 <img class="GitHub" src="images/github.png" alt="gitHub">GitHub
             </div>
    </div>
-    </div>
+    </footer>
+    <script src="script.js" ></script>
 </body>
 </html>
